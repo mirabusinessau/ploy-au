@@ -22,22 +22,23 @@ select {
 
 .hero h1 {
   font-family: "Noto Sans Thai", sans-serif;
-  font-size: clamp(2.05rem, 4.4vw, 4.05rem);
-  line-height: 1.28;
+  font-size: clamp(1.95rem, 4.1vw, 3.75rem);
+  line-height: 1.42;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: 0;
   margin: 18px 0 16px;
   overflow: visible;
-  padding-top: .08em;
-  padding-bottom: .12em;
+  padding-top: .18em;
+  padding-bottom: .18em;
 }
 
 .hero h1 span {
   display: inline-block;
   white-space: nowrap;
   overflow: visible;
-  padding-top: .10em;
-  padding-bottom: .10em;
+  line-height: 1.42;
+  padding-top: .18em;
+  padding-bottom: .18em;
 }
 
 .brand img {
@@ -64,13 +65,17 @@ select {
 
 @media (max-width: 760px) {
   .hero h1 {
-    font-size: clamp(1.8rem, 8.2vw, 2.8rem);
-    line-height: 1.30;
+    font-size: clamp(1.7rem, 7.6vw, 2.55rem);
+    line-height: 1.46;
+    padding-top: .20em;
+    padding-bottom: .20em;
   }
 
   .hero h1 span {
     white-space: nowrap;
-    padding-top: .12em;
+    line-height: 1.46;
+    padding-top: .20em;
+    padding-bottom: .20em;
   }
 
   .hero-art img {

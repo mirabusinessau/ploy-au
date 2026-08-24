@@ -1,0 +1,14 @@
+/* PloyAU Thai headline readability fix */
+.hero h1{
+  font-family:"Noto Sans Thai","LINE Seed Sans TH",system-ui,sans-serif;
+  font-size:clamp(2.35rem,5vw,4.7rem) !important;
+  line-height:1.22 !important;
+  font-weight:700;
+  letter-spacing:-.025em !important;
+  overflow:visible;
+  padding:.08em 0 .12em;
+}
+.hero h1 span{display:inline-block;padding-top:.06em;padding-bottom:.08em;overflow:visible;}
+@media(max-width:760px){
+  .hero h1{font-size:clamp(2rem,9vw,3.2rem) !important;line-height:1.24 !important;}
+}

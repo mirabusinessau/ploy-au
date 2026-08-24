@@ -39,6 +39,12 @@ select {
   line-height: 1.42;
   padding-top: .18em;
   padding-bottom: .18em;
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: #1f8fd1 !important;
+  color: #1f8fd1 !important;
+  letter-spacing: 0 !important;
 }
 
 .brand img {
